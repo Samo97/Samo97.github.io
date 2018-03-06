@@ -1,0 +1,230 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	background: url("../images/manipulation-2991935_1920.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+.page{
+	margin: 0px auto;
+	width: 90%;
+	max-width: 1080px;
+	margin-bottom: 2px;
+	height: 1750px;
+	position: relative;
+	
+}
+
+header{
+	background-image: url("../images/milky-way-2695569_960_720.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	display: table;
+	margin-bottom: 20px;
+}
+header div{
+	
+	width: 150px;
+	height: 50px;
+	float: left;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+header form{
+	float: right;
+	width: 200px;
+	margin-top: 40px;
+}
+header input{
+	margin-bottom: 15px;
+	
+}
+header .sub{
+	border: none;
+	background: #344280;
+	padding: 9px;
+	font-weight: 600;
+	cursor: pointer;
+	margin-right: 7px;
+}
+
+
+
+
+
+.left-sidebar{
+	position: relative;
+	width: 20%;
+	max-width: 200px;
+	height: 1500px;
+	background: linear-gradient(grey, #9c9da9);
+	float: left;
+}
+.left-sidebar h1{
+	padding: 15px;
+	text-align: center;
+}
+.left-sidebar .menu > li{
+	text-align: center;
+	list-style: none;
+	transition: all .5s ease-in-out;
+	overflow: hidden;
+	height: 50px;
+}
+.left-sidebar .menu li span{
+	font-size: 18px;
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	background: #ffdbd4;
+	display: block;
+	cursor: pointer;
+	border-bottom: 3px solid black;
+	font-weight: bold;
+	transition: all 0.5s linear;
+}
+.left-sidebar .menu li > a{
+	transition: all 0.3s ease-in;
+	font-size: 18px;
+	color: black;
+	display: block;
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+}
+.left-sidebar .menu > li:hover{
+	height: 300px;
+}
+.left-sidebar .menu li > a:hover{
+	background: olive;
+}
+
+
+
+section{
+	width: 81.5%;
+	max-width: 880px;
+	height: 1500px;
+	background:linear-gradient(#3341ff,cornflowerblue);
+	float: right;
+	position: relative;
+}
+
+section .block{
+	width: 100%;
+	max-width: 769px;
+	margin-left: 40px;
+	margin-top: 50px;
+	
+}
+
+section .block > div{
+	width: 35%;
+	max-width: 350px;
+	height: 400px;
+	margin-bottom: 80px;
+	display: inline-block;
+	position: relative;
+}
+section img{
+	width: 100%;
+	height: 100%;
+}
+section img:hover{
+	opacity: 0.8;
+}
+section div:nth-child(even){
+	margin-left: 29%;
+}
+section .scroll img{
+	width: 60px;
+	height: 60px;
+}
+
+
+
+
+
+footer{
+	width: 100%;
+	background: rgba(0,0,0, 0.7 );
+	height: 200px;
+	position: relative;
+}
+footer .foot{
+	
+	width: 90%;
+	height: 150px;
+	display: table;
+	position: absolute;
+	top: 40px;
+	left: 5%;
+	
+}
+.foot1, .foot2, .foot3{
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+footer h3{
+	color: white;
+	font-size: 18px;
+}
+.foot1 p{
+	font-size: 14px;
+	color: #6c7279;
+}
+.foot1 address{
+	font-size: 14px;
+	font-style: normal;
+	color: #6c7279;
+}
+.foot1 .red:hover{
+	font-size: 16px;
+	color: crimson;
+	cursor: pointer;
+}
+.foot1 .heart{
+	color: darkred;
+}
+footer .foot3{
+	margin-right: 0;
+}
+.foot2 ul{
+	list-style-type: none;
+	padding: 0;
+}
+.foot2 li{
+	line-height: 25px;
+}
+.foot2 a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.foot2 a:hover{
+	font-size: 17px;
+	color: crimson;
+	cursor: pointer;
+}
+
+.foot3 ul{
+	list-style-type: none;
+	padding-left: 5px;
+}
+.foot3 li{
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.foot3 a{
+	color: dimgrey;
+}
+
+
+
