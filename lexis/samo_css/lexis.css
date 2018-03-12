@@ -1,0 +1,485 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	
+}
+					/*......header.......*/
+.page{
+	width: 100%;
+	max-width: 1580px;
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	max-width: 1580px;
+	height: 650px;
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	display: table;
+	position: relative;
+}
+.header-box{
+	width: 20%;
+	max-width: 290px;
+	float: left;
+	margin-top: 50px;
+}
+header .menu{
+	width: 70%;
+	max-width: 1187px;
+	float: right;
+	margin-top: 50px;
+	
+}
+header .logo{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background: url("../images/logol.png") no-repeat 50%;
+	display: inline-block;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+}
+.menu li{
+    display: inline-block;
+	margin-right: 50px;
+}
+.menu li:last-child{
+	margin-right: 0px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menu a:hover{
+	color: lightgrey;
+}
+header .text{
+	width: 70%;
+	max-width: 1106px;
+	margin: 0px auto;
+	padding-top: 150px;
+	display: block;
+	clear: both;
+	height: 300px;
+}
+header h1{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	margin: inherit;
+}
+header .headtext1{
+	margin: 20px auto;
+	text-align: center;
+	font-weight: bolder;
+	color:  rgba(255, 255, 255, 0.60);
+}
+.headtext2{
+	margin-top: 20px;
+	text-align: center;
+}
+.headtext2 > a{
+	color: white;
+	text-decoration: none;
+	background: #3a8045;
+	padding: 15px;
+	height: 70px;
+	line-height: 70px;
+}
+.headtext2 a:hover{
+	font-size: 17px;
+}
+									/*..../header......*/
+
+									/*......main.....*/
+
+			/*...section1....*/
+main{
+	width: 100%;
+	max-width: 1580px;
+}
+main .sect1{
+	padding: 50px 0px;
+	height: 150px;
+	background: #1f8afa;
+	text-align: center;
+}
+.sect1 h2{
+	color: whitesmoke;
+	font-weight: normal;
+}
+.sect1 p{
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.60);
+}
+			/*.../section1....*/
+
+			/*...section2....*/
+
+.sect2{
+	margin: 60px 0;
+}
+.sect2 li{
+	display: inline-block;
+	width: 27.215%;
+	max-width: 430px;
+	margin-right: 7%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.sect2 li:nth-child(3){
+	margin-right: 0px;
+}
+.sect2 li:nth-child(6){
+	margin-right: 0px;
+}
+.sect2 p{
+	color: #6c7279;
+	font-size: 14px;
+}
+
+				/*.../section2....*/
+
+
+				/*...section3....*/
+
+
+.sect3 div{
+	width: 22%;
+	max-width: 350px;
+	height: 400px;
+	margin-left: 1%;
+	margin-right: 2%;
+	display: inline-block;
+	transition: all 0.6s ease;
+	position: relative;
+	cursor: pointer;
+}
+.sect3 > div:nth-child(4){
+	margin-right: 0;
+}
+.sect3 > div:nth-child(8){
+	margin-right: 0;
+}
+.sect3 .middle{
+	transition: all 0.6s ease;
+	opacity: 0;
+	position: absolute;
+	height: 99.9%;
+	width: 99%;
+	background-color: #00aeda;
+}
+.sect3 div:hover .middle{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.sect3 h3{
+	color: #f2ffd8;
+	position: absolute;
+	top: 40%;
+	left: 27%;
+}
+.sect3 p{
+	color:  #f2ffd8;
+	position: absolute;
+	top: 40%;
+	left: 27%;
+}
+.sect3 p{
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+.sect3 .block1{
+	background: url("../images/work-1.jpg");
+	background-size: 100% 100%;
+}
+.sect3 .block2{
+	background: url("../images/work-2.jpg");
+	background-size: 100% 100%;
+}
+.sect3 .block3{
+	background: url("../images/work-3.jpg");
+	background-size: 100% 100%;
+}
+.sect3 .block4{
+	background: url("../images/work-4.jpg");
+	background-size: 100% 100%;
+}
+.sect3 .block5{
+	background: url("../images/work-5.jpg");
+	background-size: 100% 100%;
+}
+.sect3 .block6{
+	background: url("../images/work-6.jpg");
+	background-size: 100% 100%;
+}
+.sect3 .block7{
+	background: url("../images/work-7.jpg");
+	background-size: 100% 100%;
+}
+.sect3 .block8{
+	background: url("../images/work-8.jpg");
+	background-size: 100% 100%;
+}
+
+				/*.../section3....*/
+
+				/*...section4....*/
+
+.sect4 {
+	margin: 50px 0px;
+	padding: 0;
+}
+.sect4  .radius{
+	margin-top: 80px;
+	text-align: center;
+	display: inline-block;
+	width: 20.8%;
+	max-width: 330px;
+	margin-right: 5%;
+}
+.sect4  div:last-child{
+	margin-right: 0;
+}
+.team1, .team2, .team3, .team4{
+	border-radius: 50%;
+	margin: 1px auto;
+}
+.sect4 .team1{
+	background: url("../images/team-1.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+}
+.sect4 .team2{
+	background: url("../images/team-2.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+}
+.sect4  .team3{
+	background: url("../images/team-3.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+}
+.sect4  .team4{
+	background: url("../images/team-4.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+}
+.sect4  span{
+	color: cornflowerblue;
+	font-size: 14px;
+}
+.sect4  p{
+	color: #6c7279;
+}
+.sect4 ul{
+	list-style: none;
+	padding: 0;
+}
+.sect4 li{
+	display: inline-block;
+	
+}
+.sect4 a{
+	text-decoration: none;
+	display: block;
+	
+	font-size: 36px;
+	color: grey;
+}
+.sect4 a:hover{
+	color: #425fed;
+
+
+}
+
+
+
+				/*.../section4....*/
+
+				/*...section5....*/
+
+.sect5{
+	padding: 50px;
+	height: 150px;
+	background: #1f8afa;
+	text-align: center;
+}
+.sect5 blockquote{
+	margin: 40px auto;
+	width: 870px;
+	color: whitesmoke;
+	font-size: 22px;
+}
+.sect5 cite{
+	margin-top: 70px;
+	font-size: 13px;
+	font-style: normal;
+	color: whitesmoke;
+}
+
+				/*.../section5....*/
+
+				/*...section6....*/
+.sect6{
+	margin: 0;
+	height: 800px;
+}
+.sect6 h2{
+	margin: 0px;
+	padding-top: 90px;
+	text-align: center;
+}
+.sect6 p{
+	text-align: center;
+	width: 600px;
+	margin: 50px auto;
+}
+.sect6 form{
+	margin: 0 auto;
+	width: 50.6%;
+	max-width: 800px;
+}
+.sect6 label{
+	display: block;
+	margin-bottom: 70px;
+	margin-left: 0px;
+}
+.sect6 textarea{
+	width: 100%;
+	max-width: 799px;
+}
+.sect6 .login{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	outline: none;
+
+}
+.sect6 .com{
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	outline: none;
+}
+
+.sect6 .sub{
+	display: inline-block;
+	background: #408054;
+	color: #eddeff;
+	border: none;
+	margin: 0 auto;
+	letter-spacing: 5px;
+	font-size: 17px;
+	border-radius: 5px;
+	padding: 20px;
+	transition: all 0.5s;
+}
+.sect6 .a{
+	width: 280px;
+	margin: 0 auto;
+}
+.sect6 .sub:hover{
+	cursor: pointer;
+	background: black;
+	font-size: 19px;
+}
+
+				/*.../section6....*/
+
+				/*...footer....*/
+
+footer{
+	width: 100%;
+	max-width: 1580px;
+	background: rgba(0,0,0, 0.9 );
+	height: 300px;
+	position: relative;
+}
+footer .foot{
+	width: 90%;
+	max-width: 1422px;
+	height: 260px;
+	display: table;
+	position: absolute;
+	top: 40px;
+	left: 5%;
+	
+}
+.foot1, .foot2, .foot3{
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+footer h3{
+	color: white;
+	font-size: 18px;
+}
+.foot1 p{
+	font-size: 14px;
+	color: #6c7279;
+ }
+.foot1 address{
+	font-size: 14px;
+	font-style: normal;
+	color: #6c7279;
+}
+.foot1 .red:hover{
+	font-size: 16px;
+	color: crimson;
+	cursor: pointer;
+}
+.foot1 .heart{
+	color: darkred;
+}
+footer .foot3{
+	margin-right: 0;
+}
+.foot2 ul{
+	list-style-type: none;
+	padding: 0;
+}
+.foot2 li{
+	line-height: 25px;
+}
+.foot2 a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+.foot2 a:hover{
+	font-size: 17px;
+	color: crimson;
+	cursor: pointer;
+}
+
+.foot3 ul{
+	list-style-type: none;
+	padding-left: 5px;
+}
+.foot3 li{
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.foot3 a{
+	color: dimgrey;
+}
+
+
+
+
+				/*.../footer....*/
