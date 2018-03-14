@@ -1,0 +1,52 @@
+.block{
+	display: table;
+	position: relative;
+}
+.block1{
+	float: left;
+}
+.block2{
+	float: left;
+}
+.block3{
+	float: left;
+}
+.block4{
+	float: left;
+}
+.block5{
+	float: left;
+}
+.block6{
+	float: left;
+}
+section .block a{
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	line-height: 20px;
+}
+section .block span{
+	margin-left: 20%;
+	border-radius: 5px;
+	background: #8983ff;
+	padding: 5px;
+	line-height: 20px;
+	height: 20px;
+}
+.par{
+	display: inline-block;
+	margin-top: 17px;
+	height: 400px;
+	width: 55%;
+	max-width: 550px;
+	position: relative;
+	margin-left: 40px;
+}
+.side1{
+	
+	position: absolute;
+	top: 70px;
+	left: -265px;
+	width: 700px;
+}
