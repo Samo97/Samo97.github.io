@@ -1,0 +1,55 @@
+@media only screen and (max-width : 1200px){
+	.blocks div:hover .middle:after{
+		left: 30%;
+		font-size: 20px;
+	}
+	
+}
+
+@media only screen and (max-width : 1100px){
+	.blocks > div{
+		height: 250px;
+	}
+}
+@media only screen and (max-width : 900px){
+	.block2{
+		height: 300px;
+	}
+	.block2 ul{
+		top: 15%;
+		left: 5%;
+	}
+	.block2 h4{
+		margin: 17px 0px 12px 0;
+		font-size: 16px;
+	}
+	.blocks > div{
+		height: 200px;
+	}
+	.blocks div:hover .middle:after{
+		left: 30%;
+		font-size: 15px;
+	}
+}
+
+
+@media only screen and (max-width : 700px){
+	.blocks div:hover .middle:after{
+		left: 20%;
+		font-size: 15px;
+	}
+	.blocks > div{
+		height: 140px;
+	}
+}
+
+
+@media only screen and (max-width : 500px){
+	.blocks div:hover .middle:after{
+		left: 7%;
+		font-size: 15px;
+	}
+	.blocks > div{
+		height: 100px;
+	}
+}
