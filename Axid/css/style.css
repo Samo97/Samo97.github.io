@@ -1,0 +1,429 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+}
+p{
+	font-family: "Open Sans", sans-serif;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+}
+
+/*header*/
+header{
+	background: url("../images/background.jpg");
+	background-size: 100% 100%;
+}
+header nav a{
+	color: #c9c9c9;
+}
+header .block1{
+	padding-top: 162px;
+	padding-bottom: 161px;
+}
+header h3{
+	color: #ffffff;
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+header p{
+	color: #909091;
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+header .download{
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+}
+header .started{
+	background: #ffffff;
+	border-radius: 12px;
+	height: 360px;
+}
+header .started h4{
+	color: #333333;
+	font-weight: bold;
+	padding-top: 20px;
+}
+header .started button{
+	background: #ff9b51;
+	width: 100%;
+}
+/*----header----*/
+
+
+/*main*/
+/*section1*/
+.sect1{
+	background: url("../images/Brand-Panel.png") no-repeat;
+	background-size: 100% 100%;
+}
+.sect1 .row {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.sect1 p{
+	color: #86878b;
+}
+.sect1 h4{
+	font-weight: bold;
+}
+/*----section1----*/
+
+
+/*section2*/
+.sect2{
+	background: #f5f5f5;
+}
+.sect2 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect2 .row  img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.sect2 p{
+	color: #86878b;
+}
+.sect2 button{
+	background: #ff9b51;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.sect2 ul{
+	margin-top: 15px;
+}
+.sect2 ul li a{
+	margin-top: 5px;
+	background: #333333;
+	color: ivory;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.sect2 ul li a:hover{
+	 background: #ff8b38;
+ }
+.sect2 ul li a:active{
+	background: #ff8b38;
+}
+
+/*----section2----*/
+
+
+/*section3*/
+.sect3 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect3 > div > div{
+	padding-top: 20px;
+}
+.sect3 h4{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.sect3 p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #86878b;
+}
+.sect3 i{
+	position: relative;
+	top: 10px;
+	left: -20px;
+	font-size: 24px;
+	color: coral;
+}
+/*----section3----*/
+
+
+/*section4*/
+.sect4{
+	background: #f5f5f5;
+}
+.sect4 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect4 h4{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.sect4 p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #86878b;
+}
+.sect4 > div > div{
+	padding-top: 20px;
+}
+/*----section4----*/
+
+
+/*section5*/
+.sect5 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect5 .row .text-center img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.sect5 h4{
+	font-weight: bold;
+}
+.sect5 .designs > div{
+	padding-bottom: 30px;
+}
+.sect5 p{
+	color: #86878b;
+}
+.sect5 i{
+	font-size: 30px;
+	color: coral;
+	position: relative;
+	top: 63px;
+}
+/*----section5----*/
+
+
+/*section6*/
+.sect6{
+	background: #f5f5f5;
+}
+.sect6 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect6 .row .text-center img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.sect6 p{
+	color: #86878b;
+}
+.sect6 h4{
+	font-weight: bold;
+	color: white;
+	background: #333333;
+	padding: 13px 23px;
+	margin-bottom: 1px;
+}
+.sect6 .col-md-4 > div{
+	background: #333333;
+	color: white;
+	padding: 17px 23px;
+}
+.sect6 .col-md-4 > div i{
+	font-size: 40px;
+}
+.sect6 .col-md-4 > div span{
+	font-size: 70px;
+	font-weight: bold;
+}
+.sect6 .col-md-4 > div p{
+	padding-top: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+.sect6 .col-md-4 > p{
+	background: #fff;
+	color: #86878b;
+	margin-bottom: 2px;
+	padding: 17px 23px;
+}
+.sect6 .mejtex{
+	position: relative;
+	top: -28px;
+}
+/*----section6----*/
+
+
+/*section7*/
+.sect7 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect7 .row .text-center img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.sect7 p{
+	color: #86878b;
+}
+.sect7 h4{
+	font-weight: bold;
+}
+.sect7 .col-md-4{
+	padding-bottom: 30px;
+}
+.speech-bubble {
+	position: relative;
+	background: #f5f5f5;
+	border-radius: .4em;
+}
+.speech-bubble p{
+	color: #86878b;
+	padding: 15px;
+}
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #f5f5f5;
+	border-bottom: 0;
+	margin-left: -20px;
+	margin-bottom: -20px;
+}
+/*----section7----*/
+
+
+/*section8*/
+.sect8{
+	background: url("../images/Custom Panel.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+.sect8 p{
+	color: ivory;
+}
+.sect8 h2{
+	font-weight: bold;
+	color: white;
+}
+.sect8 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect8 .row .text-center img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.sect8 .download{
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+}
+/*----section8----*/
+
+
+/*section9*/
+.sect9 > div{
+	padding-bottom: 115px;
+	padding-top: 80px;
+}
+.sect9 .row .text-center img{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.sect9 button{
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #ff9b51;
+	color: white;
+}
+.sect9 p{
+	color: #86878b;
+}
+.sect9 input{
+	height: 49px;
+}
+/*----section9----*/
+
+
+/*footer*/
+footer{
+	background: #000000;
+}
+footer .row > div > div{
+	padding-bottom: 25px;
+}
+footer a img:hover{
+	color: cornflowerblue;
+}
+footer > div{
+	padding-top: 30px;
+}
+/*----footer----*/
+
+.top{
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	color: #5c52ff;
+	cursor: pointer;
+	font-size: 50px;
+}
+/*media*/
+@media only screen and (max-width : 420px) {
+	
+	.sect2 ul li a{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 14px;
+	}
+	.sect2 ul li {
+		width: 60px;
+	}
+	.sect1 img{
+		width: 33px;
+		height: 33px;
+	}
+	footer img{
+		width: 45px;
+		height: 45px;
+	}
+}
+@media only screen and (max-width : 600px) {
+	
+	a{
+		font-size: 14px;
+	}
+	p{
+		font-size: 14px;
+	}
+	h4{
+		font-size: 16px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	h2{
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	header h3{
+		font-size: 18px;
+	}
+	.sect1 img{
+		width: 33px;
+		height: 33px;
+	}
+}
+@media only screen and (max-width : 770px) {
+	
+	header .started{
+		display: none;
+	}
+}
+@media only screen and (max-width : 992px) {
+	
+	.sect2 .col-md-4 img{
+		display: none;
+	}
+}
+/*----media----*/
